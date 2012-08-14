@@ -3,11 +3,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Blog Archives - Code, informally</title>
+	<title>Set up dev environment - Code, informally</title>
 	<meta name="author" content="Paulo Mouat">
 
 	
-	<meta name="description" content=" 2012 Set up dev environment Aug 14 Dev Initial test post Aug 14 ">
+	<meta name="description" content="To set up my dev environment on a brand new OS X 10.8 (Mountain Lion): If the SSH keys were not created, generate SSH key and add it to GitHub.
+a. &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -89,42 +90,69 @@
 </script>
 
 	
-	<div id="content" class="inner">
-	
+	<div id="content" class="inner"><article class="post">
+	<h1 class="title">Set Up Dev Environment</h1>
+	<div class="entry-content"><p>To set up my dev environment on a brand new OS X 10.8 (Mountain Lion):</p>
+
+<ol>
+<li>If the SSH keys were not created, generate SSH key and add it to GitHub.
+a.  Instructions are available at https://help.github.com/articles/generating-ssh-keys.
+b.  On a brand new machine, there should be no pre-existing keys; if that is the case, jump directly to step 3,
+
+<pre><code>*Generate a new SSH key*.
+</code></pre>
+
+c.  Follow directions on step 4, <em>Add your SSH key to GitHub</em> and step 5, <em>Test everything out</em>. The system will ask
+
+<pre><code>for the key's passphrase, and you can add it to the keychain.
+</code></pre></li>
+<li>Get the latest git from http://git-scm.com/downloads/ and install it.</li>
+<li><p>In the projects folder, clone the devsetup repository to get the devsetup scripts:
+<code>git clone git@github.com:paulomouat/devsetup</code></p></li>
+<li><p>Clone the repos in GitHub:
+<code>./devsetup/gitrepos.sh</code></p></li>
+</ol>
+
+</div>
 
 
-	
-	
-	<section class="archives"><h1 class="year">2012</h1>
+<div class="meta">
+	<div class="date">
 
-<article>
-	<h1 class="title"><a href="/blog/blog/2012/08/14/set-up-dev-environment/">Set up dev environment</a></h1>
-	<div class="meta">
-		<span class="date">Aug 14</span>
-		<span class="tags">
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-14T18:35:00-04:00" pubdate data-updated="true">Aug 14<span>th</span>, 2012</time></div>
+	<div class="tags">
 
 
 	<a class='category' href='/blog/blog/categories/dev/'>Dev</a>
 
 
-</span>
-	    
-	</div>
-</article>
-
+</div>
 	
+</div></article>
 
-
-<article>
-	<h1 class="title"><a href="/blog/blog/2012/08/14/initial-test-post/">Initial test post</a></h1>
-	<div class="meta">
-		<span class="date">Aug 14</span>
-		<span class="tags">
-
-</span>
-	    
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
 	</div>
-</article>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
 </div>
 	<footer id="footer" class="inner">Copyright &copy; 2012
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Code, informally]]></title>
   <link href="http://paulomouat.github.com/blog/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
-  <updated>2012-08-14T21:14:04-04:00</updated>
+  <updated>2012-08-14T21:15:53-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
   <author>
     <name><![CDATA[Paulo Mouat]]></name>
@@ -57,15 +57,6 @@ for the key&#8217;s passphrase, and you can add it to the keychain.</li>
 <code>./devsetup/gitrepos.sh</code></p></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Initial test post]]></title>
-    <link href="http://paulomouat.github.com/blog/blog/2012/08/14/initial-test-post/"/>
-    <updated>2012-08-14T18:12:00-04:00</updated>
-    <id>http://paulomouat.github.com/blog/blog/2012/08/14/initial-test-post</id>
-    <content type="html"><![CDATA[<p>Just an initial post to test generation and deployment.</p>
 ]]></content>
   </entry>
   

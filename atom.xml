@@ -4,7 +4,7 @@
   <title><![CDATA[Code, informally]]></title>
   <link href="http://paulomouat.github.com/blog/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
-  <updated>2012-08-14T21:08:37-04:00</updated>
+  <updated>2012-08-14T21:13:08-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
   <author>
     <name><![CDATA[Paulo Mouat]]></name>
@@ -24,13 +24,10 @@
 <li><p>Install RVM, Ruby 1.9.3 and Rails 3 by following the directions at <a href="http://pragmaticstudio.com/blog/2010/9/23/install-rails-ruby-mac/">http://pragmaticstudio.com/blog/2010/9/23/install-rails-ruby-mac/</a></p></li>
 <li><p>To set the blog up, run the following on the command-line:</p>
 
-<ol>
-<li><code>cd blog</code></li>
-<li><code>gem install bundler</code></li>
-<li><code>bundle install</code></li>
-<li><code>rake setup_github_pages</code></li>
-</ol>
-</li>
+<p>cd blog
+gem install bundler
+bundle install
+rake setup_github_pages</p></li>
 </ol>
 
 ]]></content>

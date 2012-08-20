@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Setting up the Windows PowerShell profile - Code, informally</title>
+	<title>Setting up the Windows PowerShell profile in Windows - Code, informally</title>
 	<meta name="author" content="Paulo Mouat">
 
 	
@@ -90,13 +90,15 @@
 
 	
 	<div id="content" class="inner"><article class="post">
-	<h1 class="title">Setting Up the Windows PowerShell Profile</h1>
+	<h1 class="title">Setting Up the Windows PowerShell Profile in Windows</h1>
 	<div class="entry-content"><p>Here&#8217;s how to make the Windows PowerShell command-line prompt use the Visual Studio 2012 environment variables and settings:</p>
 
 <ol>
-<li>We have to start by allowing the loading of PowerShell configuration and profile files, which is disabled by default. So, execute the following in a PowerShell window started with admin rights (confirm you want to change the execution policy when prompted):
-<code>Set-ExecutionPolicy Unrestricted</code></li>
-<li>Copy the PowerShell profile file from spikes/shells/Windows/Microsoft.PowerShell_profile.ps1 into My Documents/WindowsPowerShell, maintaining the exact filename.</li>
+<li><p>We have to start by allowing the loading of PowerShell configuration and profile files, which is disabled by default. To that end, execute the following in a PowerShell window started with admin rights (confirm you want to change the execution policy when prompted):</p>
+
+<p><code>Set-ExecutionPolicy Unrestricted</code></p></li>
+<li><p>Copy the PowerShell profile file from spikes/shells/Windows/Microsoft.PowerShell_profile.ps1 into My Documents/WindowsPowerShell, ensuring the filename is preserved exactly.</p></li>
+<li><p>That&#8217;s it. You can now use the Visual Studio command-line tools from PowerShell.</p></li>
 </ol>
 
 </div>

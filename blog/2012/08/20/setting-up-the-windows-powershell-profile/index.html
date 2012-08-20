@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Code, informally</title>
+	<title>Setting up the Windows PowerShell profile - Code, informally</title>
 	<meta name="author" content="Paulo Mouat">
 
 	
@@ -89,13 +89,9 @@
 </script>
 
 	
-	<div id="content" class="inner">
-
-
-    <article class="post">
-	<h1 class="title"><a href="/blog/blog/2012/08/20/setting-up-the-windows-powershell-profile/">Setting Up the Windows PowerShell Profile</a></h1>
-	<div class="entry-content">
-		<p>Here&#8217;s how to make the Windows PowerShell command-line prompt use the Visual Studio 2012 environment variables and settings:</p>
+	<div id="content" class="inner"><article class="post">
+	<h1 class="title">Setting Up the Windows PowerShell Profile</h1>
+	<div class="entry-content"><p>Here&#8217;s how to make the Windows PowerShell command-line prompt use the Visual Studio 2012 environment variables and settings:</p>
 
 <ol>
 <li>We have to start by allowing the loading of PowerShell configuration and profile files, which is disabled by default. So, execute the following in a PowerShell window started with admin rights (confirm you want to change the execution policy when prompted):
@@ -103,10 +99,7 @@
 <li>Copy the PowerShell profile file from spikes/shells/Windows/Microsoft.PowerShell_profile.ps1 into My Documents/WindowsPowerShell, maintaining the exact filename.</li>
 </ol>
 
-
-		
-		
-	</div>
+</div>
 
 
 <div class="meta">
@@ -133,110 +126,20 @@
 	
 </div></article>
 
-
-    <article class="post">
-	<h1 class="title"><a href="/blog/blog/2012/08/14/set-up-ruby/">Set Up Ruby, RVM, Rails and the Blog</a></h1>
-	<div class="entry-content">
-		<p>To install the Ruby-related tools:</p>
-
-<p>Install RVM, Ruby 1.9.3 and Rails 3 by following the directions at <a href="http://pragmaticstudio.com/blog/2010/9/23/install-rails-ruby-mac/">http://pragmaticstudio.com/blog/2010/9/23/install-rails-ruby-mac/</a></p>
-
-<p>Then, to set the blog up, run the following on the command-line:</p>
-
-<pre><code>cd blog
-gem install bundler
-bundle install
-rake setup_github_pages
-</code></pre>
-
-		
-		
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
 	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-14T21:03:00-04:00" pubdate data-updated="true">Aug 14<span>th</span>, 2012</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/blog/categories/dev/'>Dev</a>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
 
 
 </div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h1 class="title"><a href="/blog/blog/2012/08/14/set-up-dev-environment/">Set Up Dev Environment</a></h1>
-	<div class="entry-content">
-		<p>To set up my dev environment on a brand new OS X 10.8 (Mountain Lion):</p>
-
-<ol>
-<li><p>If the SSH keys were not created, generate SSH key and add it to GitHub.</p>
-
-<ol>
-<li>Instructions are available at <a href="https://help.github.com/articles/generating-ssh-keys">https://help.github.com/articles/generating-ssh-keys</a>.</li>
-<li>On a brand new machine, there should be no pre-existing keys; if that is the case, jump directly to step 3,
-<em>Generate a new SSH key</em>.</li>
-<li>Follow directions on step 4, <em>Add your SSH key to GitHub</em> and step 5, <em>Test everything out</em>. The system will ask
-for the key&#8217;s passphrase, and you can add it to the keychain.</li>
-</ol>
-</li>
-<li><p>Get the latest git from <a href="http://git-scm.com/downloads/">http://git-scm.com/downloads/</a> and install it.</p></li>
-<li><p>In the projects folder, clone the devsetup repository to get the devsetup scripts:<br/>
-<code>git clone git@github.com:paulomouat/devsetup</code></p></li>
-<li><p>Clone the repos in GitHub by executing the following on the command-line:<br/>
-<code>./devsetup/gitrepos.sh</code></p></li>
-</ol>
-
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-14T18:35:00-04:00" pubdate data-updated="true">Aug 14<span>th</span>, 2012</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/blog/categories/dev/'>Dev</a>
-
-
-</div>
-	
-</div></article>
-
-<nav id="pagenavi">
-    
-    
-    <div class="center"><a href="/blog/blog/archives">Blog Archives</a></div>
-</nav></div>
 	<footer id="footer" class="inner">Copyright &copy; 2012
 
     Paulo Mouat

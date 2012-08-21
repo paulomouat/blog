@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Setup | Code, informally]]></title>
   <link href="http://paulomouat.github.com/blog/blog/categories/setup/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
-  <updated>2012-08-20T21:11:03-04:00</updated>
+  <updated>2012-08-20T21:12:37-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
   <author>
     <name><![CDATA[Paulo Mouat]]></name>
@@ -28,6 +28,24 @@
 
 <p><code>./create_subl_symlink.sh</code></p></li>
 <li><p>Sublime Text 2 can now be invoked from the command-line by simply executing <code>subl</code> or <code>subl &lt;name of file to edit&gt;</code>.</p></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Setting up the Windows PowerShell profile in Windows]]></title>
+    <link href="http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-the-windows-powershell-profile/"/>
+    <updated>2012-08-20T18:51:00-04:00</updated>
+    <id>http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-the-windows-powershell-profile</id>
+    <content type="html"><![CDATA[<p>Here's how to make the Windows PowerShell command-line prompt use the Visual Studio 2012 environment variables and settings:</p>
+
+<ol>
+<li><p>We have to start by allowing the loading of PowerShell configuration and profile files, which is disabled by default. To that end, execute the following in a PowerShell window started with admin rights (confirm you want to change the execution policy when prompted):</p>
+
+<p><code>Set-ExecutionPolicy Unrestricted</code></p></li>
+<li><p>Copy the PowerShell profile file from devsetup/Windows/Microsoft.PowerShell_profile.ps1 into My Documents/WindowsPowerShell, ensuring the filename is preserved exactly.</p></li>
+<li><p>That's it. You can now use the Visual Studio command-line tools from PowerShell.</p></li>
 </ol>
 
 ]]></content>

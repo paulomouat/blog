@@ -2,42 +2,42 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://paulomouat.github.com/blog/blog/2012/08/14/setting-up-dev-environment/</loc>
-        <lastmod>2012-08-21T11:43:36-04:00</lastmod>
+        <lastmod>2012-08-21T18:25:01-04:00</lastmod>
     </url>
     <url>
         <loc>http://paulomouat.github.com/blog/blog/2012/08/14/setting-up-ruby/</loc>
-        <lastmod>2012-08-21T11:43:57-04:00</lastmod>
+        <lastmod>2012-08-21T18:25:29-04:00</lastmod>
     </url>
     <url>
         <loc>
             http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-the-windows-powershell-profile/
         </loc>
-        <lastmod>2012-08-21T11:46:13-04:00</lastmod>
+        <lastmod>2012-08-21T18:33:08-04:00</lastmod>
     </url>
     <url>
         <loc>
             http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-the-command-for-sublime-text-2/
         </loc>
-        <lastmod>2012-08-21T11:45:22-04:00</lastmod>
+        <lastmod>2012-08-21T18:28:01-04:00</lastmod>
     </url>
     <url>
         <loc>
             http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-sublime-text-2-with-sublime-package-control/
         </loc>
-        <lastmod>2012-08-21T17:11:56-04:00</lastmod>
+        <lastmod>2012-08-21T18:31:00-04:00</lastmod>
     </url>
     <url>
         <loc>
             http://paulomouat.github.com/blog/blog/2012/08/21/setting-up-go-and-sublime-text-2-packages/
         </loc>
-        <lastmod>2012-08-21T18:22:19-04:00</lastmod>
+        <lastmod>2012-08-21T18:23:23-04:00</lastmod>
     </url>
     <url>
         <loc>http://paulomouat.github.com/blog/blog/archives/</loc>
-        <lastmod>2012-08-21T18:22:19-04:00</lastmod>
+        <lastmod>2012-08-21T18:33:08-04:00</lastmod>
     </url>
     <url>
         <loc>http://paulomouat.github.com/blog/</loc>
-        <lastmod>2012-08-21T18:22:19-04:00</lastmod>
+        <lastmod>2012-08-21T18:33:08-04:00</lastmod>
     </url>
 </urlset>

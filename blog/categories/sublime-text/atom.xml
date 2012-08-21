@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Sublime Text | Code, informally]]></title>
   <link href="http://paulomouat.github.com/blog/blog/categories/sublime-text/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
-  <updated>2012-08-21T18:22:26-04:00</updated>
+  <updated>2012-08-21T18:33:15-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
   <author>
     <name><![CDATA[Paulo Mouat]]></name>
@@ -22,7 +22,7 @@
 
 <ol>
 <li>Download the binaries from <a href="http://code.google.com/p/go/downloads/list">http://code.google.com/p/go/downloads/list</a>.</li>
-<li>Open the package (possibly with <code>option-Open</code> if the package hasn't been signed) and proceed with installation using the defaults.</li>
+<li>Open the package (possibly with <code>opt-Open</code> if the package hasn't been signed) and proceed with installation using the defaults.</li>
 <li><p>To test the installation, open the go folder in the <strong>spikes</strong> repo, and run the <strong>hello.go</strong> sample by issuing</p>
 
 <pre><code>$ go run hello.go
@@ -38,10 +38,10 @@
     <link href="http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-sublime-text-2-with-sublime-package-control/"/>
     <updated>2012-08-20T21:13:00-04:00</updated>
     <id>http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-sublime-text-2-with-sublime-package-control</id>
-    <content type="html"><![CDATA[<p>Install Sublime Package Control from <a href="http://wbond.net/sublime_packages/package_control">http://wbond.net/sublime_packages/package_control</a> by doing the following (if you run into any issues, there are additional details at <a href="http://wbond.net/sublime_packages/package_control/installation">http://wbond.net/sublime_packages/package_control/installation</a>):</p>
+    <content type="html"><![CDATA[<p>Install <strong>Sublime Package Control</strong> from <a href="http://wbond.net/sublime_packages/package_control">http://wbond.net/sublime_packages/package_control</a> by doing the following (if you run into any issues, there are additional details at <a href="http://wbond.net/sublime_packages/package_control/installation">http://wbond.net/sublime_packages/package_control/installation</a>):</p>
 
 <ol>
-<li><p>Run the following command from the Sublime Text console, invoked through Ctrl+` (this is a long single line of code, you will have to scroll right to see it in full):</p>
+<li><p>Run the following command from the Sublime Text console, invoked through <code>Ctrl+`</code> (this is a long single line of code, you will have to scroll right to see it in full):</p>
 
 <pre><code>import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'
 </code></pre></li>
@@ -59,7 +59,7 @@
     <content type="html"><![CDATA[<p>To set up the command-line script to invoke Sublime Text 2 do the following:</p>
 
 <ol>
-<li><p>In the devsetup repo, grant the <strong>create_subl_symlink.sh</strong> script execution rights:</p>
+<li><p>In the <strong>devsetup</strong> repo, grant the <strong>create_subl_symlink.sh</strong> script execution rights:</p>
 
 <pre><code>$ chmod a+x create_subl_symlink.sh
 </code></pre></li>

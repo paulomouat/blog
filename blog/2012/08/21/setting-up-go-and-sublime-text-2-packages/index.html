@@ -3,11 +3,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Setting up Sublime Text 2 with Sublime Package Control - Code, informally</title>
+	<title>Setting up Go and Sublime Text 2 packages for editing Go code - Code, informally</title>
 	<meta name="author" content="Paulo Mouat">
 
 	
-	<meta name="description" content="Install Sublime Package Control from http://wbond.net/sublime_packages/package_control. Installation instructions are available at http://wbond.net/ &hellip;">
+	<meta name="description" content="Instructions to download and install the Go tools are available at http://golang.org/doc/install, but in essence you need to do the following: &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -90,15 +90,18 @@
 
 	
 	<div id="content" class="inner"><article class="post">
-	<h1 class="title">Setting Up Sublime Text 2 With Sublime Package Control</h1>
-	<div class="entry-content"><p>Install Sublime Package Control from <a href="http://wbond.net/sublime_packages/package_control">http://wbond.net/sublime_packages/package_control</a>. Installation instructions are available at <a href="http://wbond.net/sublime_packages/package_control/installation">http://wbond.net/sublime_packages/package_control/installation</a>:</p>
+	<h1 class="title">Setting Up Go and Sublime Text 2 Packages for Editing Go Code</h1>
+	<div class="entry-content"><p>Instructions to download and install the Go tools are available at <a href="http://golang.org/doc/install">http://golang.org/doc/install</a>, but in essence you need to do the following:</p>
 
-<p>Run the following command from the Sublime Text console, invoked through Ctrl+`:</p>
+<ol>
+<li>Download the binaries from <a href="http://code.google.com/p/go/downloads/list">http://code.google.com/p/go/downloads/list</a>.</li>
+<li>Open the package (possibly with Opt-Open if the package hasn&#8217;t been signed) and proceed with installation using the defaults.</li>
+<li><p>To test the installation, open the go folder in the spikes repo, and run the hello.go sample by issuing</p>
 
-<pre><code>import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'
-</code></pre>
+<pre><code>$ go run hello.go
+</code></pre></li>
+</ol>
 
-<p>Restart Sublime Text.</p>
 </div>
 
 
@@ -115,11 +118,11 @@
   
 
 
-<time datetime="2012-08-21T11:33:00-04:00" pubdate data-updated="true">Aug 21<span>st</span>, 2012</time></div>
+<time datetime="2012-08-21T21:36:00-04:00" pubdate data-updated="true">Aug 21<span>st</span>, 2012</time></div>
 	<div class="tags">
 
 
-	<a class='category' href='/blog/blog/categories/setup/'>Setup</a>, <a class='category' href='/blog/blog/categories/sublime-text/'>Sublime Text</a>
+	<a class='category' href='/blog/blog/categories/go/'>Go</a>, <a class='category' href='/blog/blog/categories/setup/'>Setup</a>, <a class='category' href='/blog/blog/categories/sublime-text/'>Sublime Text</a>
 
 
 </div>

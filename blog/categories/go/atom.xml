@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Go | Code, informally]]></title>
   <link href="http://paulomouat.github.com/blog/blog/categories/go/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
-  <updated>2012-08-21T11:46:47-04:00</updated>
+  <updated>2012-08-21T16:34:00-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
   <author>
     <name><![CDATA[Paulo Mouat]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Setting up Go and Sublime Text 2 packages for editing Go code]]></title>
-    <link href="http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-go-and-sublime-text-2-packages/"/>
-    <updated>2012-08-20T21:36:00-04:00</updated>
-    <id>http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-go-and-sublime-text-2-packages</id>
+    <link href="http://paulomouat.github.com/blog/blog/2012/08/21/setting-up-go-and-sublime-text-2-packages/"/>
+    <updated>2012-08-21T21:36:00-04:00</updated>
+    <id>http://paulomouat.github.com/blog/blog/2012/08/21/setting-up-go-and-sublime-text-2-packages</id>
     <content type="html"><![CDATA[<p>Instructions to download and install the Go tools are available at <a href="http://golang.org/doc/install">http://golang.org/doc/install</a>, but in essence you need to do the following:</p>
 
 <ol>

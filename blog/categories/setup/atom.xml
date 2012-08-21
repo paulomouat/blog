@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Setup | Code, informally]]></title>
   <link href="http://paulomouat.github.com/blog/blog/categories/setup/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
-  <updated>2012-08-21T18:34:50-04:00</updated>
+  <updated>2012-08-21T18:35:43-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
   <author>
     <name><![CDATA[Paulo Mouat]]></name>
@@ -93,7 +93,7 @@
 
 <pre><code>PS&gt; Set-ExecutionPolicy Unrestricted
 </code></pre></li>
-<li><p>Copy the PowerShell profile file <strong>devsetup/Windows/Microsoft.PowerShell_profile.ps1</strong> into <strong>My&nbsp;Documents/WindowsPowerShell</strong>, ensuring the filename is preserved exactly.</p></li>
+<li><p>Copy the PowerShell profile file <strong>devsetup/Windows/Microsoft.PowerShell_profile.ps1</strong> into <strong>My&nbsp;Documents/WindowsPowerShell/</strong>, ensuring the filename is preserved exactly.</p></li>
 <li><p>That's it. You can now use the Visual Studio command-line tools from PowerShell.</p></li>
 </ol>
 

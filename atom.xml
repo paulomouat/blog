@@ -4,7 +4,7 @@
   <title><![CDATA[Code, informally]]></title>
   <link href="http://paulomouat.github.com/blog/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
-  <updated>2012-08-21T18:18:43-04:00</updated>
+  <updated>2012-08-21T18:22:26-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
   <author>
     <name><![CDATA[Paulo Mouat]]></name>
@@ -22,12 +22,12 @@
 
 <ol>
 <li>Download the binaries from <a href="http://code.google.com/p/go/downloads/list">http://code.google.com/p/go/downloads/list</a>.</li>
-<li>Open the package (possibly with Opt-Open if the package hasn&#8217;t been signed) and proceed with installation using the defaults.</li>
-<li><p>To test the installation, open the go folder in the spikes repo, and run the hello.go sample by issuing</p>
+<li>Open the package (possibly with <code>option-Open</code> if the package hasn&#8217;t been signed) and proceed with installation using the defaults.</li>
+<li><p>To test the installation, open the go folder in the <strong>spikes</strong> repo, and run the <strong>hello.go</strong> sample by issuing</p>
 
 <pre><code>$ go run hello.go
 </code></pre></li>
-<li><p>Install the GoSublime package on Sublime Text 2. Instructions are available at <a href="https://github.com/DisposaBoy/GoSublime#installation">https://github.com/DisposaBoy/GoSublime#installation</a>.</p></li>
+<li><p>Install the <strong>GoSublime</strong> package on Sublime Text 2. Instructions are available at <a href="https://github.com/DisposaBoy/GoSublime#installation">https://github.com/DisposaBoy/GoSublime#installation</a>.</p></li>
 </ol>
 
 ]]></content>

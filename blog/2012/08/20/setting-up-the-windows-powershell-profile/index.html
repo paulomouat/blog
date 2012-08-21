@@ -96,8 +96,9 @@
 <ol>
 <li><p>We have to start by allowing the loading of PowerShell configuration and profile files, which is disabled by default. To that end, execute the following in a PowerShell window started with admin rights (confirm you want to change the execution policy when prompted):</p>
 
-<p><code>Set-ExecutionPolicy Unrestricted</code></p></li>
-<li><p>Copy the PowerShell profile file from devsetup/Windows/Microsoft.PowerShell_profile.ps1 into My Documents/WindowsPowerShell, ensuring the filename is preserved exactly.</p></li>
+<pre><code>PS&gt; Set-ExecutionPolicy Unrestricted
+</code></pre></li>
+<li><p>Copy the PowerShell profile file from <strong>devsetup/Windows/Microsoft.PowerShell_profile.ps1</strong> into <strong>My Documents/WindowsPowerShell</strong>, ensuring the filename is preserved exactly.</p></li>
 <li><p>That&#8217;s it. You can now use the Visual Studio command-line tools from PowerShell.</p></li>
 </ol>
 

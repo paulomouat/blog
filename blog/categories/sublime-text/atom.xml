@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Sublime Text | Code, informally]]></title>
   <link href="http://paulomouat.github.com/blog/blog/categories/sublime-text/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
-  <updated>2012-08-21T11:39:47-04:00</updated>
+  <updated>2012-08-21T11:46:47-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
   <author>
     <name><![CDATA[Paulo Mouat]]></name>
@@ -56,13 +56,23 @@
     <content type="html"><![CDATA[<p>To set up the command-line script to invoke Sublime Text 2 do the following:</p>
 
 <ol>
-<li><p>In the devsetup repo, grant the create_subl_symlink.sh script execution rights:</p>
+<li><p>In the devsetup repo, grant the <strong>create_subl_symlink.sh</strong> script execution rights:</p>
 
-<p><code>chmod a+x create_subl_symlink.sh</code></p></li>
+<pre><code>$ chmod a+x create_subl_symlink.sh
+</code></pre></li>
 <li><p>Execute the script:</p>
 
-<p><code>./create_subl_symlink.sh</code></p></li>
-<li><p>Sublime Text 2 can now be invoked from the command-line by simply executing <code>subl</code> or <code>subl &lt;name of file to edit&gt;</code>.</p></li>
+<pre><code>$ ./create_subl_symlink.sh
+</code></pre></li>
+<li><p>Sublime Text 2 can now be invoked from the command-line by simply executing</p>
+
+<pre><code>$ subl
+</code></pre>
+
+<p>or</p>
+
+<pre><code>$ subl &lt;name of file to edit or create&gt;
+</code></pre></li>
 </ol>
 
 ]]></content>

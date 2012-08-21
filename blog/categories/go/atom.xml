@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Go | Code, informally]]></title>
+  <link href="http://paulomouat.github.com/blog/blog/categories/go/atom.xml" rel="self"/>
+  <link href="http://paulomouat.github.com/blog/"/>
+  <updated>2012-08-21T11:39:47-04:00</updated>
+  <id>http://paulomouat.github.com/blog/</id>
+  <author>
+    <name><![CDATA[Paulo Mouat]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Setting up Go and Sublime Text 2 packages for editing Go code]]></title>
+    <link href="http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-go-and-sublime-text-2-packages/"/>
+    <updated>2012-08-20T21:36:00-04:00</updated>
+    <id>http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-go-and-sublime-text-2-packages</id>
+    <content type="html"><![CDATA[<p>Instructions to download and install the Go tools are available at <a href="http://golang.org/doc/install">http://golang.org/doc/install</a>, but in essence you need to do the following:</p>
+
+<ol>
+<li>Download the binaries from <a href="http://code.google.com/p/go/downloads/list">http://code.google.com/p/go/downloads/list</a>.</li>
+<li>Open the package (possibly with Opt-Open if the package hasn't been signed) and proceed with installation using the defaults.</li>
+<li><p>To test the installation, open the go folder in the spikes repo, and run the hello.go sample by issuing</p>
+
+<pre><code>$ go run hello.go
+</code></pre></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

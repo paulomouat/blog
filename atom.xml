@@ -4,7 +4,7 @@
   <title><![CDATA[Code, informally]]></title>
   <link href="http://paulomouat.github.com/blog/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
-  <updated>2012-08-20T21:12:37-04:00</updated>
+  <updated>2012-08-21T11:39:47-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
   <author>
     <name><![CDATA[Paulo Mouat]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Setting up Sublime Text 2 with Sublime Package Control]]></title>
+    <link href="http://paulomouat.github.com/blog/blog/2012/08/21/setting-up-sublime-text-2-with-sublime-package-control/"/>
+    <updated>2012-08-21T11:33:00-04:00</updated>
+    <id>http://paulomouat.github.com/blog/blog/2012/08/21/setting-up-sublime-text-2-with-sublime-package-control</id>
+    <content type="html"><![CDATA[<p>Install Sublime Package Control from <a href="http://wbond.net/sublime_packages/package_control">http://wbond.net/sublime_packages/package_control</a>. Installation instructions are available at <a href="http://wbond.net/sublime_packages/package_control/installation">http://wbond.net/sublime_packages/package_control/installation</a>:</p>
+
+<p>Run the following command from the Sublime Text console, invoked through Ctrl+`:</p>
+
+<pre><code>import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'
+</code></pre>
+
+<p>Restart Sublime Text.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Setting up Go and Sublime Text 2 packages for editing Go code]]></title>
+    <link href="http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-go-and-sublime-text-2-packages/"/>
+    <updated>2012-08-20T21:36:00-04:00</updated>
+    <id>http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-go-and-sublime-text-2-packages</id>
+    <content type="html"><![CDATA[<p>Instructions to download and install the Go tools are available at <a href="http://golang.org/doc/install">http://golang.org/doc/install</a>, but in essence you need to do the following:</p>
+
+<ol>
+<li>Download the binaries from <a href="http://code.google.com/p/go/downloads/list">http://code.google.com/p/go/downloads/list</a>.</li>
+<li>Open the package (possibly with Opt-Open if the package hasn&#8217;t been signed) and proceed with installation using the defaults.</li>
+<li><p>To test the installation, open the go folder in the spikes repo, and run the hello.go sample by issuing</p>
+
+<pre><code>$ go run hello.go
+</code></pre></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Setting up the command for Sublime Text 2]]></title>

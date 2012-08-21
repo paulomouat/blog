@@ -3,11 +3,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Code, informally</title>
+	<title>Setting up Ruby, RVM, Rails and the blog - Code, informally</title>
 	<meta name="author" content="Paulo Mouat">
 
 	
-	<meta name="description" content="Here&#8217;s how to make the Windows PowerShell command-line prompt use the Visual Studio 2012 environment variables and settings: We have to start &hellip;">
+	<meta name="description" content="To install the Ruby-related tools: Install RVM, Ruby 1.9.3 and Rails 3 by following the directions at http://pragmaticstudio.com/blog/2010/9/23/ &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -89,57 +89,9 @@
 </script>
 
 	
-	<div id="content" class="inner">
-
-
-    <article class="post">
-	<h1 class="title"><a href="/blog/blog/2012/08/20/setting-up-the-windows-powershell-profile/">Setting Up the Windows PowerShell Profile in Windows</a></h1>
-	<div class="entry-content">
-		<p>Here&#8217;s how to make the Windows PowerShell command-line prompt use the Visual Studio 2012 environment variables and settings:</p>
-
-<ol>
-<li><p>We have to start by allowing the loading of PowerShell configuration and profile files, which is disabled by default. To that end, execute the following in a PowerShell window started with admin rights (confirm you want to change the execution policy when prompted):</p>
-
-<p><code>Set-ExecutionPolicy Unrestricted</code></p></li>
-<li><p>Copy the PowerShell profile file from devsetup/Windows/Microsoft.PowerShell_profile.ps1 into My Documents/WindowsPowerShell, ensuring the filename is preserved exactly.</p></li>
-<li><p>That&#8217;s it. You can now use the Visual Studio command-line tools from PowerShell.</p></li>
-</ol>
-
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-20T18:51:00-04:00" pubdate data-updated="true">Aug 20<span>th</span>, 2012</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/blog/categories/visual-studio/'>Visual Studio</a>, <a class='category' href='/blog/blog/categories/windows/'>Windows</a>
-
-
-</div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h1 class="title"><a href="/blog/blog/2012/08/14/setting-up-ruby/">Setting Up Ruby, RVM, Rails and the Blog</a></h1>
-	<div class="entry-content">
-		<p>To install the Ruby-related tools:</p>
+	<div id="content" class="inner"><article class="post">
+	<h1 class="title">Setting Up Ruby, RVM, Rails and the Blog</h1>
+	<div class="entry-content"><p>To install the Ruby-related tools:</p>
 
 <p>Install RVM, Ruby 1.9.3 and Rails 3 by following the directions at <a href="http://pragmaticstudio.com/blog/2010/9/23/install-rails-ruby-mac/">http://pragmaticstudio.com/blog/2010/9/23/install-rails-ruby-mac/</a></p>
 
@@ -150,10 +102,7 @@ gem install bundler
 bundle install
 rake setup_github_pages
 </code></pre>
-
-		
-		
-	</div>
+</div>
 
 
 <div class="meta">
@@ -180,65 +129,20 @@ rake setup_github_pages
 	
 </div></article>
 
-
-    <article class="post">
-	<h1 class="title"><a href="/blog/blog/2012/08/14/setting-up-dev-environment/">Setting Up the Dev Environment</a></h1>
-	<div class="entry-content">
-		<p>To set up my dev environment on a brand new OS X 10.8 (Mountain Lion):</p>
-
-<ol>
-<li><p>If the SSH keys were not created, generate SSH key and add it to GitHub.</p>
-
-<ol>
-<li>Instructions are available at <a href="https://help.github.com/articles/generating-ssh-keys">https://help.github.com/articles/generating-ssh-keys</a>.</li>
-<li>On a brand new machine, there should be no pre-existing keys; if that is the case, jump directly to step 3,
-<em>Generate a new SSH key</em>.</li>
-<li>Follow directions on step 4, <em>Add your SSH key to GitHub</em> and step 5, <em>Test everything out</em>. The system will ask
-for the key&#8217;s passphrase, and you can add it to the keychain.</li>
-</ol>
-</li>
-<li><p>Get the latest git from <a href="http://git-scm.com/downloads/">http://git-scm.com/downloads/</a> and install it.</p></li>
-<li><p>In the projects folder, clone the devsetup repository to get the devsetup scripts:<br/>
-<code>git clone git@github.com:paulomouat/devsetup</code></p></li>
-<li><p>Clone the repos in GitHub by executing the following on the command-line:<br/>
-<code>./devsetup/gitrepos.sh</code></p></li>
-</ol>
-
-
-		
-		
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
 	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-14T18:35:00-04:00" pubdate data-updated="true">Aug 14<span>th</span>, 2012</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/blog/categories/git/'>Git</a>, <a class='category' href='/blog/blog/categories/github/'>GitHub</a>, <a class='category' href='/blog/blog/categories/setup/'>Setup</a>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
 
 
 </div>
-	
-</div></article>
-
-<nav id="pagenavi">
-    
-    
-    <div class="center"><a href="/blog/blog/archives">Blog Archives</a></div>
-</nav></div>
 	<footer id="footer" class="inner">Copyright &copy; 2012
 
     Paulo Mouat

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Code, informally]]></title>
-  <link href="http://paulomouat.github.com/blog/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Setup | Code, informally]]></title>
+  <link href="http://paulomouat.github.com/blog/blog/categories/setup/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
   <updated>2012-08-20T21:03:08-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
@@ -12,24 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Setting up the Windows PowerShell profile in Windows]]></title>
-    <link href="http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-the-windows-powershell-profile/"/>
-    <updated>2012-08-20T18:51:00-04:00</updated>
-    <id>http://paulomouat.github.com/blog/blog/2012/08/20/setting-up-the-windows-powershell-profile</id>
-    <content type="html"><![CDATA[<p>Here&#8217;s how to make the Windows PowerShell command-line prompt use the Visual Studio 2012 environment variables and settings:</p>
-
-<ol>
-<li><p>We have to start by allowing the loading of PowerShell configuration and profile files, which is disabled by default. To that end, execute the following in a PowerShell window started with admin rights (confirm you want to change the execution policy when prompted):</p>
-
-<p><code>Set-ExecutionPolicy Unrestricted</code></p></li>
-<li><p>Copy the PowerShell profile file from devsetup/Windows/Microsoft.PowerShell_profile.ps1 into My Documents/WindowsPowerShell, ensuring the filename is preserved exactly.</p></li>
-<li><p>That&#8217;s it. You can now use the Visual Studio command-line tools from PowerShell.</p></li>
-</ol>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Setting up Ruby, RVM, Rails and the blog]]></title>
@@ -65,7 +47,7 @@ rake setup_github_pages
 <li>On a brand new machine, there should be no pre-existing keys; if that is the case, jump directly to step 3,
 <em>Generate a new SSH key</em>.</li>
 <li>Follow directions on step 4, <em>Add your SSH key to GitHub</em> and step 5, <em>Test everything out</em>. The system will ask
-for the key&#8217;s passphrase, and you can add it to the keychain.</li>
+for the key's passphrase, and you can add it to the keychain.</li>
 </ol>
 </li>
 <li><p>Get the latest git from <a href="http://git-scm.com/downloads/">http://git-scm.com/downloads/</a> and install it.</p></li>

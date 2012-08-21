@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Git | Code, informally]]></title>
+  <link href="http://paulomouat.github.com/blog/blog/categories/git/atom.xml" rel="self"/>
+  <link href="http://paulomouat.github.com/blog/"/>
+  <updated>2012-08-20T21:03:08-04:00</updated>
+  <id>http://paulomouat.github.com/blog/</id>
+  <author>
+    <name><![CDATA[Paulo Mouat]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Setting up the dev environment]]></title>
+    <link href="http://paulomouat.github.com/blog/blog/2012/08/14/setting-up-dev-environment/"/>
+    <updated>2012-08-14T18:35:00-04:00</updated>
+    <id>http://paulomouat.github.com/blog/blog/2012/08/14/setting-up-dev-environment</id>
+    <content type="html"><![CDATA[<p>To set up my dev environment on a brand new OS X 10.8 (Mountain Lion):</p>
+
+<ol>
+<li><p>If the SSH keys were not created, generate SSH key and add it to GitHub.</p>
+
+<ol>
+<li>Instructions are available at <a href="https://help.github.com/articles/generating-ssh-keys">https://help.github.com/articles/generating-ssh-keys</a>.</li>
+<li>On a brand new machine, there should be no pre-existing keys; if that is the case, jump directly to step 3,
+<em>Generate a new SSH key</em>.</li>
+<li>Follow directions on step 4, <em>Add your SSH key to GitHub</em> and step 5, <em>Test everything out</em>. The system will ask
+for the key's passphrase, and you can add it to the keychain.</li>
+</ol>
+</li>
+<li><p>Get the latest git from <a href="http://git-scm.com/downloads/">http://git-scm.com/downloads/</a> and install it.</p></li>
+<li><p>In the projects folder, clone the devsetup repository to get the devsetup scripts:<br/>
+<code>git clone git@github.com:paulomouat/devsetup</code></p></li>
+<li><p>Clone the repos in GitHub by executing the following on the command-line:<br/>
+<code>./devsetup/gitrepos.sh</code></p></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Set up dev environment"
+title: "Setting up the dev environment"
 date: 2012-08-14 18:35
 comments: true
-categories: Dev
+categories: ["Setup", "Git", "GitHub"]
 ---
 
 To set up my dev environment on a brand new OS X 10.8 (Mountain Lion):

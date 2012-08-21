@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Set up Ruby, RVM, Rails and the blog"
+title: "Setting up Ruby, RVM, Rails and the blog"
 date: 2012-08-14 21:03
 comments: true
-categories: Dev
+categories: ["Setup", "Ruby", "Rails", "Blog"]
 ---
 
 To install the Ruby-related tools:

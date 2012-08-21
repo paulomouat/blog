@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Go | Code, informally]]></title>
   <link href="http://paulomouat.github.com/blog/blog/categories/go/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
-  <updated>2012-08-21T17:10:22-04:00</updated>
+  <updated>2012-08-21T17:19:27-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
   <author>
     <name><![CDATA[Paulo Mouat]]></name>
@@ -27,6 +27,7 @@
 
 <pre><code>$ go run hello.go
 </code></pre></li>
+<li><p>Install the GoSublime package on Sublime Text 2. Instructions are available at <a href="https://github.com/DisposaBoy/GoSublime#installation">https://github.com/DisposaBoy/GoSublime#installation</a>.</p></li>
 </ol>
 
 ]]></content>

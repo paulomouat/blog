@@ -18,7 +18,9 @@ To set up my dev environment on a brand new OS X 10.8 (Mountain Lion):
 2.  Get the latest git from <http://git-scm.com/downloads/> and install it.
 
 3.  In the projects folder, clone the devsetup repository to get the devsetup scripts:  
-    `git clone git@github.com:paulomouat/devsetup`
+    
+        $ git clone git@github.com:paulomouat/devsetup
 
 4.  Clone the repos in GitHub by executing the following on the command-line:  
-    `./devsetup/gitrepos.sh`
+        
+        $ ./devsetup/gitrepos.sh

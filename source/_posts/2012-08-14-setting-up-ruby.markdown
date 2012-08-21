@@ -12,7 +12,7 @@ Install RVM, Ruby 1.9.3 and Rails 3 by following the directions at <http://pragm
 
 Then, to set the blog up, run the following on the command-line:
 
-    cd blog
-    gem install bundler
-    bundle install
-    rake setup_github_pages
+    $ cd blog
+    $ gem install bundler
+    $ bundle install
+    $ rake setup_github_pages

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Sublime Text | Code, informally]]></title>
   <link href="http://paulomouat.github.com/blog/blog/categories/sublime-text/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
-  <updated>2012-08-21T18:35:43-04:00</updated>
+  <updated>2012-08-23T17:06:55-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
   <author>
     <name><![CDATA[Paulo Mouat]]></name>
@@ -28,6 +28,22 @@
 <pre><code>$ go run hello.go
 </code></pre></li>
 <li><p>Install the <strong>GoSublime</strong> package on Sublime Text 2. Instructions are available at <a href="https://github.com/DisposaBoy/GoSublime#installation">https://github.com/DisposaBoy/GoSublime#installation</a>.</p></li>
+<li><p>Make sure <strong>GoSublime</strong> is installed with all package dependencies:</p>
+
+<ol>
+<li>Open <strong>Preferences | Package Settings | GoSublime | Settings - User</strong></li>
+<li><p>Make sure the GOPATH and GOROOT environment variables are properly set. Typically, the entries look like:</p>
+
+<pre><code>{
+    "env": {
+        "GOPATH": "$HOME/Documents/projects/misc/go",
+        "GOROOT": "/usr/local/go"
+    }
+}
+</code></pre></li>
+<li><p>Open <strong>Tools | Command Palette</strong>. In the <strong>GoSublime</strong> commands, execute <strong>Install/Update MarGo and Gocode</strong>.</p></li>
+</ol>
+</li>
 </ol>
 
 ]]></content>

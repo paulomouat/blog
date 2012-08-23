@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Sublime Text | Code, informally]]></title>
   <link href="http://paulomouat.github.com/blog/blog/categories/sublime-text/atom.xml" rel="self"/>
   <link href="http://paulomouat.github.com/blog/"/>
-  <updated>2012-08-23T17:06:55-04:00</updated>
+  <updated>2012-08-23T17:09:20-04:00</updated>
   <id>http://paulomouat.github.com/blog/</id>
   <author>
     <name><![CDATA[Paulo Mouat]]></name>
@@ -32,7 +32,7 @@
 
 <ol>
 <li>Open <strong>Preferences | Package Settings | GoSublime | Settings - User</strong></li>
-<li><p>Make sure the GOPATH and GOROOT environment variables are properly set. Typically, the entries look like:</p>
+<li><p>Make sure the <strong>GOPATH</strong> and <strong>GOROOT</strong> environment variables are properly set. Typically, the entries look like the following:</p>
 
 <pre><code>{
     "env": {

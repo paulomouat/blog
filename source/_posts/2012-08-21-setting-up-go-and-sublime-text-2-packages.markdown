@@ -16,3 +16,15 @@ Instructions to download and install the Go tools are available at <http://golan
 
 4.  Install the **GoSublime** package on Sublime Text 2. Instructions are available at <https://github.com/DisposaBoy/GoSublime#installation>.
 
+5.  Make sure **GoSublime** is installed with all package dependencies:
+    1.  Open **Preferences | Package Settings | GoSublime | Settings - User**
+    2.  Make sure the **GOPATH** and **GOROOT** environment variables are properly set. Typically, the entries look like the following:
+
+            {
+				"env": {
+					"GOPATH": "$HOME/Documents/projects/misc/go",
+        			"GOROOT": "/usr/local/go"
+        		}
+			}
+
+	3.  Open **Tools | Command Palette**. In the **GoSublime** commands, execute **Install/Update MarGo and Gocode**.
